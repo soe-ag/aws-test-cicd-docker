@@ -7,6 +7,6 @@ app.get("/", (req, res) => {
   res.send("Hell from my containerized Noed.js app");
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
 });
