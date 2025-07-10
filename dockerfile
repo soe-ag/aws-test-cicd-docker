@@ -1,4 +1,4 @@
-FROM public.ecr.aws/library/node:alpine
+FROM public.ecr.aws/docker/library/node:18-alpine
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
