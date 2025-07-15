@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => {
-  res.send("Hello from my containerized Node.js app..,new task");
+  res.send("Hello from my containerized Node.js app..");
 });
 
 app.listen(port, () => {
